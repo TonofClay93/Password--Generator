@@ -24,7 +24,7 @@ function generatePassword() {
       alert("Please confirm a set of criteria!");
       return generatePassword();
     }
-    
+  }
 
 // Write password to the #password input
 function writePassword() {
