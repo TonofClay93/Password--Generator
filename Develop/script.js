@@ -25,7 +25,31 @@ function generatePassword() {
       return generatePassword();
     }
   }
-
+  // if functions for choices
+  if (speChar) {
+    var speChar = ["!@#$%^&*()"];
+  }
+  if (speChar===false) {
+    var speChar = [""];
+  }
+  if (num) {
+    var num = ["0123456789"]
+  }
+  if (num===false) {
+    var num = [""]
+  }
+  if (lowerChar) {
+    var lowerChar = ["abcdefghijklmnopqrstuvwxyz"]
+  }
+  if (lowerChar===false) {
+    var lowerChar = [""]
+  }
+  if (upperChar) {
+    var upperChar = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]
+  }
+  if (upperChar===false) {
+    var upperChar = [""]
+  }
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
