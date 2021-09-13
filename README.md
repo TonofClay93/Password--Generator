@@ -2,4 +2,4 @@
 
 #Screen shot
 
-<img src="/images/screenshot-of-website.jpg">
+<img src="./Develop/images/screenshot-of-website.jpg">
